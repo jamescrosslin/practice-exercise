@@ -1,0 +1,15 @@
+{
+  "name": "practice-import-export",
+  "version": "1.0.0",
+  "description": "* **1) Create a module for the route handlers**   * Create a file named 'routes.js'.     * In 'routes.js', import `express` and set up `express.Router`   * Remove the two route handlers, '/' and '/error', from 'app.js' and add them to 'routes.js'   * Adjust the route handlers to work on the `router` rather than `app`   * Export the `router` and import the module into 'app.js'   * Use `app.use()` to pass the new `routes` module to the Express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
